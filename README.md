@@ -25,11 +25,18 @@ The objective of this project is to design and implement an SDN-based path traci
 
 ## 🏗️ Network Topology
 
-A linear topology with 3 switches and 2 hosts was used:
+A linear topology with 3 switches and 3 hosts was used:
 
-h1 — s1 — s2 — s3 — h2
+h1 — s1 — h2 - s2 — s3 — h3
 
 This topology helps clearly observe packet traversal across multiple switches.
+
+### Network Topology
+
+<img width="504" height="196" alt="cnorange4" src="https://github.com/user-attachments/assets/7d3bd7f1-233d-4e5c-a91f-73d0805cacbc" />
+
+
+This shows the Mininet network with hosts, switches, and controller connections.
 
 ---
 
